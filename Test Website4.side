@@ -1,0 +1,525 @@
+{
+  "id": "c8f4adfd-0bc5-4f1e-9d62-f94792fbd294",
+  "version": "2.0",
+  "name": "Test Website",
+  "url": "https://epicentrk.ua/",
+  "tests": [{
+    "id": "83b0c7e4-7c59-4a74-b29e-fe7903610f6b",
+    "name": "Test Search",
+    "commands": [{
+      "id": "e29cdb51-518a-4ed7-b5bc-be84bc3908af",
+      "comment": "",
+      "command": "open",
+      "target": "https://epicentrk.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "529c62ae-988a-49c2-85fc-da673dd53cc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_Z71CozDH > .\\_vrmZibVl",
+      "targets": [
+        ["css=.\\_Z71CozDH > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[8]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7213de1a-54a1-42b8-9fce-2136e687579a",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "Ноутбук"
+    }, {
+      "id": "2d7ecfa6-857f-456b-be9b-93a6604dca91",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@value='']",
+      "targets": [
+        ["css=.\\_Z71CozDH > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[8]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ноутбук"
+    }, {
+      "id": "1c46f352-28a1-4caf-91de-2e6bcaed5d32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_Wern73cQ",
+      "targets": [
+        ["css=.\\_Wern73cQ", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5529e910-53ab-45ff-b1f9-f634de6e9f1e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input[@type='search']",
+      "targets": [
+        ["css=.\\_Z71CozDH > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[8]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "пошук"
+    }, {
+      "id": "9a3de55c-dd2d-4a90-95f2-999f4e9ae768",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_7TBdaN5b",
+      "targets": [],
+      "value": "Ноутбуки"
+    }, {
+      "id": "d22c5e0f-54b8-41d1-afcf-8fa0179b0c8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7d58lFfz:nth-child(1) .\\_H6eGJXZA",
+      "targets": [
+        ["css=.\\_7d58lFfz:nth-child(1) .\\_H6eGJXZA", "css:finder"],
+        ["xpath=//div[@id='__template']/main/div/section/div[2]/div/div/div[4]/div/div/div/div/div/ul/li/article/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/shop/noutbuk-acer-nitro-v-15-anv15-41-r1ck-15-6-nh-qsheu-00q-black.html')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff1c2dc-6a72-4e7f-b04b-e98840646627",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_aql9TBaT",
+      "targets": [
+        ["css=.\\_aql9TBaT", "css:finder"],
+        ["xpath=//div[@id='__template']/main/div/div/div[2]/div/header/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ноутбук Acer Nitro V 15 ANV15-41-R1CK 15,6\" (NH.QSHEU.00Q) black')]", "xpath:innerText"]
+      ],
+      "value": "Ноутбук Acer Nitro V 15 ANV15-41-R1CK 15,6\" (NH.QSHEU.00Q) black"
+    }, {
+      "id": "56e9dedc-f141-4830-bdd6-7e53deaed2b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_O0FmzLuL:nth-child(1) .\\_oAFqaoxt",
+      "targets": [
+        ["css=.\\_O0FmzLuL:nth-child(1) .\\_oAFqaoxt", "css:finder"],
+        ["xpath=//img[@alt='Ноутбук Acer Nitro V 15 ANV15-41-R1CK 15,6\" (NH.QSHEU.00Q) black - фото 1']", "xpath:img"],
+        ["xpath=//div[@id='main']/div/div/div[2]/div/div[2]/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8fd8666e-de9c-4a58-b1dd-1470547b2704",
+    "name": "Test Log In",
+    "commands": [{
+      "id": "295cc85a-d008-4d6b-a709-24434d9a241c",
+      "comment": "",
+      "command": "open",
+      "target": "https://epicentrk.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d20ec1b-0589-46d5-8f2c-f059aa1bbcf4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.\\_JyCUrIGk > .\\_cjioPkQR",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": "300"
+    }, {
+      "id": "b73aa638-f64a-425e-90ab-d6deccdcba56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_JyCUrIGk > .\\_cjioPkQR",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07412a4a-f9c2-486b-8137-f83d88fb29ad",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//span[contains(.,'Увійти')]",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": "Увійти"
+    }, {
+      "id": "86a6e506-0494-4e21-9d94-9444f3e7174e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.\\_UiIObh0\\+ > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ad1c9fa-fbd0-4a98-857a-47a30e6fcb6f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.\\_UiIObh0\\+ > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "3cfd4d5e-3744-4ae7-b104-960ab2dbde87",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.\\_UiIObh0\\+ > .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "+380660606060"
+    }, {
+      "id": "ea15509f-8b64-4e8c-a6cf-1cd872c56ed5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81f1fda-a41d-44c1-a75e-18dc1509a00b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "f71609d0-b242-4661-8626-fda06fea3eeb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty321213"
+    }, {
+      "id": "41cd0d0a-0d46-47e4-89c6-d674eceb2ca9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label/span",
+      "targets": [
+        ["css=.\\_wkT4kfL1", "css:finder"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[4]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfac8383-4902-4eb9-9b32-c009d1214928",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[50]",
+      "targets": [
+        ["css=.\\_WuoKbTSf", "css:finder"],
+        ["xpath=(//button[@type='button'])[50]", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": "Увійти"
+    }, {
+      "id": "4c7aa698-2c0e-41fe-a7f4-f54c0a5860b4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.\\_wgzBQvIC",
+      "targets": [
+        ["css=.\\_wgzBQvIC", "css:finder"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": "Невірний логін або пароль"
+    }]
+  }, {
+    "id": "17682ce3-bf19-43bb-812a-1c30ebd3277c",
+    "name": "Test Registration",
+    "commands": [{
+      "id": "f3784716-b2de-4a1c-aaf8-ffca70daffb5",
+      "comment": "",
+      "command": "open",
+      "target": "https://epicentrk.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d1c5b60-35c5-4c92-b594-0298a7267c04",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//span[contains(.,'Увійти')]",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": "300"
+    }, {
+      "id": "3685f5f6-2a56-4757-a08f-fa001414679e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_JyCUrIGk > .\\_cjioPkQR",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "127af4ba-e83f-40d0-bc2f-476502a0b48a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//span[contains(.,'Увійти')]",
+      "targets": [
+        ["css=.\\_JyCUrIGk > .\\_cjioPkQR", "css:finder"],
+        ["xpath=//div[@id='__template']/div/header/div/div/div[6]/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти')]", "xpath:innerText"]
+      ],
+      "value": "Увійти"
+    }, {
+      "id": "5e66cc61-2e0d-4287-8fa3-b28e4b72f1b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[contains(.,'Реєстрація')]",
+      "targets": [
+        ["css=.\\_Djq0qVhy:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//form/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Реєстрація')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c1b47c-2151-4258-95f3-039e726b4d10",
+      "comment": "",
+      "command": "click",
+      "target": "name=lastName",
+      "targets": [
+        ["name=lastName", "name"],
+        ["css=.\\_vDCVJegB:nth-child(2) .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69dcb3f7-4c13-4e8f-ac22-4f2ab533471e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=lastName",
+      "targets": [],
+      "value": "Doe"
+    }, {
+      "id": "fbd20737-5858-456c-adc7-79091f455603",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.\\_vDCVJegB:nth-child(3) .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d38a54-e254-42d0-ad8f-b23f5624fcb1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.\\_vDCVJegB:nth-child(3) .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "John"
+    }, {
+      "id": "48e46eaf-6701-4db6-8345-b03befba70bc",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.\\_vDCVJegB:nth-child(4) .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17e3c43f-bf1f-46ad-a184-baef5a029c79",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.\\_vDCVJegB:nth-child(4) .\\_vrmZibVl", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "+380666066060"
+    }, {
+      "id": "cc7b6dec-aa2f-48eb-b9fa-b5c25b2ac579",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@name='email'])[2]",
+      "targets": [
+        ["css=.\\_vDCVJegB:nth-child(5) .\\_vrmZibVl", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38de1aa5-cac5-4ce9-9ccd-fb51824c5874",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=(//input[@name='email'])[2]",
+      "targets": [
+        ["css=.\\_vDCVJegB:nth-child(5) .\\_vrmZibVl", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Test@test.com"
+    }, {
+      "id": "1af9b659-3e44-4fc0-9c99-41b009862191",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_vDCVJegB:nth-child(6) .\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa02a7fd-9862-4725-ba62-93a8fce80ecc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.\\_vDCVJegB:nth-child(6) .\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty123321"
+    }, {
+      "id": "56b7b3fd-3585-47b2-9394-d91af1f6d643",
+      "comment": "",
+      "command": "click",
+      "target": "name=confirm-password",
+      "targets": [
+        ["name=confirm-password", "name"],
+        ["css=.\\_vDCVJegB:nth-child(7) .\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='confirm-password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2150dd82-8c5e-4f76-bf34-5924cfb413a0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=confirm-password",
+      "targets": [
+        ["name=confirm-password", "name"],
+        ["css=.\\_vDCVJegB:nth-child(7) .\\_q3moCExG", "css:finder"],
+        ["xpath=//input[@name='confirm-password']", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty123321"
+    }, {
+      "id": "1e1fe973-9208-4148-ac6b-3d71da059262",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label/span",
+      "targets": [
+        ["css=.\\_wkT4kfL1", "css:finder"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[8]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Отримати картку Вигода')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2e1550-13c1-4344-9abd-7c8b661e4c83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_WuoKbTSf",
+      "targets": [
+        ["css=.\\_WuoKbTSf", "css:finder"],
+        ["xpath=(//button[@type='button'])[50]", "xpath:attributes"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98dd9e8f-44e4-4873-b24c-62361bb2cb5f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//span[contains(.,'пароль не відповідає правилам')]",
+      "targets": [
+        ["css=.\\_MIoC0iOo", "css:finder"],
+        ["xpath=//div[@id='__template']/div[2]/div[2]/div/div[2]/div/div/div/form/div[7]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'пароль не відповідає правилам')]", "xpath:innerText"]
+      ],
+      "value": "пароль не відповідає правилам'"
+    }]
+  }],
+  "suites": [{
+    "id": "215f0d5f-4dd1-485c-adcd-a6a673dd2c68",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://epicentrk.ua/"],
+  "plugins": []
+}
